@@ -17,3 +17,8 @@ section {
     align-items: center;
     overflow-x: hidden;
 }
+
+.bg {
+ position: absolute;
+ top:0;
+}
