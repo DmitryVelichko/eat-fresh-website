@@ -64,3 +64,8 @@ header .navigation {
 header .navigation li {
   list-style: none;
 }
+
+header .navigation li a {
+  display: inline-block;
+  color: #fff;
+}
