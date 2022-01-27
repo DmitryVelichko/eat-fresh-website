@@ -50,4 +50,6 @@ header {
 
 header .logo {
   position: relative;
+  font-weight: 600;
+  color: #fff;
 }
