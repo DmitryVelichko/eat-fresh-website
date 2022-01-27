@@ -60,3 +60,7 @@ header .navigation {
   position: relative;
   display: flex;
 }
+
+header .navigation li {
+  list-style: none;
+}
