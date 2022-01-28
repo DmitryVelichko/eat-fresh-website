@@ -97,4 +97,9 @@ header .navigation li a:hover {
   z-index: 1;
   width: 600px;
   display: flex;
+  justify-content: flex-end;
+}
+
+.content .imgBox img {
+  max-width: 400px;
 }
