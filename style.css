@@ -74,3 +74,8 @@ header .navigation li a {
   border-radius: 40px;
   text-decoration: none;
 }
+
+header .navigation li a.active {
+  background: #fff;
+  color: #333;
+}
