@@ -28,24 +28,24 @@ section {
 }
 
 .bg::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 100%;
-    background: hsla(0, 0%, 0%, 0.1);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.1);
 }
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header .logo {
@@ -87,3 +87,7 @@ header .navigation li a:hover {
   display: flex;
 }
 
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
