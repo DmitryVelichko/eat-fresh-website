@@ -95,4 +95,6 @@ header .navigation li a:hover {
 .content .imgBox {
   position: relative;
   z-index: 1;
+  width: 600px;
+  display: flex;
 }
