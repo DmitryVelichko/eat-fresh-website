@@ -91,3 +91,8 @@ header .navigation li a:hover {
   position: relative;
   max-width: 600px;
 }
+
+.content .imgBox {
+  position: relative;
+  z-index: 1;
+}
