@@ -101,6 +101,11 @@ header .navigation li a:hover {
   font-weight: 700;
 }
 
+.content .textBox p {
+  color: #fff;
+  margin-top: 20px;
+}
+
 .content .imgBox {
   position: relative;
   z-index: 1;
