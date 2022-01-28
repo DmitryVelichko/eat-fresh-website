@@ -75,7 +75,8 @@ header .navigation li a {
   text-decoration: none;
 }
 
-header .navigation li a.active {
+header .navigation li a.active,
+header .navigation li a:hover {
   background: #fff;
   color: #333;
 }
