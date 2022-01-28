@@ -97,6 +97,8 @@ header .navigation li a:hover {
 .content .textBox h2 {
   color: #fff;
   font-size: 4em;
+  line-height: 1.2em;
+  font-weight: 700;
 }
 
 .content .imgBox {
