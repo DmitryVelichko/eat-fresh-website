@@ -106,6 +106,12 @@ header .navigation li a:hover {
   margin-top: 20px;
 }
 
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+}
+
 .content .imgBox {
   position: relative;
   z-index: 1;
