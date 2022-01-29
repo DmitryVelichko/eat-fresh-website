@@ -129,3 +129,8 @@ header .navigation li a:hover {
 .content .imgBox img {
   max-width: 400px;
 }
+
+.thumb {
+  position: absolute;
+  left: 50%;
+}
