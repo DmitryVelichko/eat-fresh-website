@@ -110,6 +110,8 @@ header .navigation li a:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
+  background: #fff;
+  color: #333;
 }
 
 .content .imgBox {
