@@ -141,6 +141,8 @@ header .navigation li a:hover {
 .thumb li {
   list-style: none;
   display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
 .thumb li img {
