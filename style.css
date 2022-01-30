@@ -143,6 +143,8 @@ header .navigation li a:hover {
   display: inline-block;
   margin: 0 10px;
   cursor: pointer;
+  transition: 0.5s;
+  height: 70px;
 }
 
 .thumb li img {
