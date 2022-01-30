@@ -157,6 +157,8 @@ header .navigation li a:hover {
 .thumb li::before {
   content: attr(data-text);
   position: absolute;
+  left: -100px;
+  top: -200px;
 }
 
 .thumb li img {
