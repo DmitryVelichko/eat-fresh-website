@@ -159,6 +159,8 @@ header .navigation li a:hover {
   position: absolute;
   left: -100px;
   top: -200px;
+  white-space: nowrap;
+  font-size: 8em;
 }
 
 .thumb li img {
