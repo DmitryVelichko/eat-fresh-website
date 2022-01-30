@@ -163,6 +163,9 @@ header .navigation li a:hover {
   font-size: 8em;
   color: rgba(0,0,0,0.05);
   font-weight: 700;
+  pointer-events: none;
+  opacity: 0;
+
 }
 
 .thumb li img {
