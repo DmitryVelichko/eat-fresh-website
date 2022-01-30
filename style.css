@@ -154,6 +154,11 @@ header .navigation li a:hover {
   border: 2px solid rgba(255,255,255,1);
 }
 
+.thumb li::before {
+  content: attr(data-text);
+  position: absolute;
+}
+
 .thumb li img {
   max-width: 50px;
 }
