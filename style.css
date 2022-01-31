@@ -161,7 +161,7 @@ header .navigation li a:hover {
   top: -200px;
   white-space: nowrap;
   font-size: 8em;
-  color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.05);
   font-weight: 700;
   pointer-events: none;
   opacity: 0;
@@ -172,5 +172,5 @@ header .navigation li a:hover {
 }
 
 .thumb li img {
-  max-width: 50px;
+  max-width: 60px;
 }
