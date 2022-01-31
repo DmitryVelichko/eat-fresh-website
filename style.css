@@ -178,4 +178,6 @@ header .navigation li a:hover {
 .sci {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
 }
