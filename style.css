@@ -145,13 +145,13 @@ header .navigation li a:hover {
   cursor: pointer;
   transition: 0.5s;
   height: 70px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 5px;
-  border: 2px solid rgba(255,255,255,0.25);
+  border: 2px solid rgba(255, 255, 255, 0.25);
 }
 
 .thumb li.active {
-  border: 2px solid rgba(255,255,255,1);
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .thumb li::before {
@@ -161,11 +161,14 @@ header .navigation li a:hover {
   top: -200px;
   white-space: nowrap;
   font-size: 8em;
-  color: rgba(0,0,0,0.05);
+  color: rgba(0, 0, 0, 0.1);
   font-weight: 700;
   pointer-events: none;
   opacity: 0;
+}
 
+.thumb li.active::before {
+  opacity: 1;
 }
 
 .thumb li img {
