@@ -240,4 +240,8 @@ header .navigation li a:hover {
     margin: 0 3px;
     height: 55px;
   }
+
+  .thumb li img {
+    max-width: 40px;
+  }
 }
