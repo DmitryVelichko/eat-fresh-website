@@ -207,4 +207,14 @@ header .navigation li a:hover {
   header {
     padding: 20px;
   }
+
+  section {
+    padding: 20px;
+    padding-bottom: 120px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
 }
