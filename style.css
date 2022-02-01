@@ -235,4 +235,9 @@ header .navigation li a:hover {
   .content .imgBox img {
     max-width: 300px;
   }
+
+  .thumb li {
+    margin: 0 3px;
+    height: 55px;
+  }
 }
