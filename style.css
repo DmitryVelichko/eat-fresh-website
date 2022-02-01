@@ -226,4 +226,9 @@ header .navigation li a:hover {
     font-size: 2.5em;
     margin-bottom: 15px;
   }
+
+  .content .imgBox {
+    max-width: 100%;
+    justify-content: center;
+  }
 }
