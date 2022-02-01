@@ -203,4 +203,8 @@ header .navigation li a:hover {
   .bg::before {
     display: none;
   }
+
+  header {
+    padding: 20px;
+  }
 }
