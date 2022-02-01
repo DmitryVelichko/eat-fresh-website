@@ -231,4 +231,8 @@ header .navigation li a:hover {
     max-width: 100%;
     justify-content: center;
   }
+
+  .content .imgBox img {
+    max-width: 300px;
+  }
 }
