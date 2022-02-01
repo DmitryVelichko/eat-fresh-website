@@ -39,7 +39,8 @@
         <ul class="sci">
             <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
             <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
-            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>        </ul>
+            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+        </ul>
     </section>
 
     <script>
@@ -47,9 +48,14 @@
         function imgSlider(link) {
             document.querySelector('.fruits').src = link;
         }
-    </script>
+    
+        // Change Background Color
 
-    <script>
+        function changeBgColor(color) {
+            const bg = document.querySelector('.bg');
+            
+        }
+
         // Add active class to selected thumbnails
         let el = document.querySelectorAll('.thumb li');
         for (let i = 0; i < el.length; i++) {
