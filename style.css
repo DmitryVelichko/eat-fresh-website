@@ -244,4 +244,9 @@ header .navigation li a:hover {
   .thumb li img {
     max-width: 40px;
   }
+
+  .thumb li::before {
+    position: absolute;
+    top: -150px;
+  }
 }
