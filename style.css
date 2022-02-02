@@ -263,4 +263,9 @@ header .navigation li a:hover {
   header .navigation {
     display: none;
   }
+
+  .toggle {
+    position: relative;
+    width: 30px;
+  }
 }
