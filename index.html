@@ -1,81 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Fresh Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <section>
-        <div class="bg"></div>
-        <header>
-            <a href="#" class='logo'>Fruits</a>
-            <div class="toggle"></div>
-            <ul class='navigation'>
-                <li><a href="#" class='active'>Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">What's New</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </header>
-        <div class="content">
-            <div class="textBox">
-                <h2>Eat Fresh Everyday</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi accusantium cumque quisquam distinctio aliquam dolorum optio explicabo natus soluta, illo eveniet ab dolorem quod voluptate sed laudantium eaque excepturi assumenda, quam ipsam odit. Nisi, natus!</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="imgBox">
-                <img src="images/apple.png" class='fruits' alt="apple">
-            </div>
+      <div class="bg"></div>
+      <header>
+        <a href="#" class="logo">Fruits</a>
+        <div class="toggle"></div>
+        <ul class="navigation">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Eat Fresh Everyday</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            accusantium cumque quisquam distinctio aliquam dolorum optio
+            explicabo natus soluta, illo eveniet ab dolorem quod voluptate sed
+            laudantium eaque excepturi assumenda, quam ipsam odit. Nisi, natus!
+          </p>
+          <a href="#">Learn More</a>
         </div>
-        <ul class="thumb">
-            <li data-text="Apple" class='active'><img src="images/apple.png" alt="apple" onclick='imgSlider("images/apple.png"); changeBgColor("#fc4a55")'></li>
-            <li data-text="Mango"><img src="images/mango.png" alt="mango" onclick='imgSlider("images/mango.png");changeBgColor("#ffcc02")'></li>
-            <li data-text="Watermelon"><img src="images/watermelon.png" alt="watermelon" onclick='imgSlider("images/watermelon.png");changeBgColor("#92ba3c")'></li>
-            <li data-text="Dragon Fruits"><img src="images/dragonFruits.png" alt="dragon fruits" onclick='imgSlider("images/dragonFruits.png");changeBgColor("#fb6cb2")'></li>
-            <li data-text="Pineapple"><img src="images/pineApple.png" alt="pineaplle" onclick='imgSlider("images/pineApple.png");changeBgColor("#ffb42b")'></li>
-        </ul>
-        <ul class="sci">
-            <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
-            <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
-            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
-        </ul>
+        <div class="imgBox">
+          <img src="images/apple.png" class="fruits" alt="apple" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li data-text="Apple" class="active">
+          <img
+            src="images/apple.png"
+            alt="apple"
+            onclick='imgSlider("images/apple.png"); changeBgColor("#fc4a55")'
+          />
+        </li>
+        <li data-text="Mango">
+          <img
+            src="images/mango.png"
+            alt="mango"
+            onclick='imgSlider("images/mango.png");changeBgColor("#ffcc02")'
+          />
+        </li>
+        <li data-text="Watermelon">
+          <img
+            src="images/watermelon.png"
+            alt="watermelon"
+            onclick='imgSlider("images/watermelon.png");changeBgColor("#92ba3c")'
+          />
+        </li>
+        <li data-text="Dragon Fruits">
+          <img
+            src="images/dragonFruits.png"
+            alt="dragon fruits"
+            onclick='imgSlider("images/dragonFruits.png");changeBgColor("#fb6cb2")'
+          />
+        </li>
+        <li data-text="Pineapple">
+          <img
+            src="images/pineApple.png"
+            alt="pineaplle"
+            onclick='imgSlider("images/pineApple.png");changeBgColor("#ffb42b")'
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/instagram.png" alt="instagram" /></a>
+        </li>
+      </ul>
     </section>
 
     <script>
-        // Toggle menu
-        let menuToggle = document.querySelector('.toggle');
+      // Toggle menu
+      let menuToggle = document.querySelector('.toggle');
+      let navigation = document.querySelector('.navigation');
+      menuToggle.onclick = function () {
+        menuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+      };
 
-        menuToggle.onclick = function() {
-            menuToggle.classList.toggle('active');
-        }
+      // Change image on click
+      function imgSlider(link) {
+        document.querySelector('.fruits').src = link;
+      }
 
-        // Change image on click
-        function imgSlider(link) {
-            document.querySelector('.fruits').src = link;
-        }
-    
-        // Change Background Color
+      // Change Background Color
 
-        function changeBgColor(color) {
-            const bg = document.querySelector('.bg');
-            bg.style.background = color;
-        }
+      function changeBgColor(color) {
+        const bg = document.querySelector('.bg');
+        bg.style.background = color;
+      }
 
-        // Add active class to selected thumbnails
-        let el = document.querySelectorAll('.thumb li');
-        for (let i = 0; i < el.length; i++) {
-            el[i].onclick = function() {
-                var check = 0;
-                while (check < el.length) {
-                    el[check++].className = 'check';
-                }
-                el[i].className = 'check active'
-            }
-        }
-
+      // Add active class to selected thumbnails
+      let el = document.querySelectorAll('.thumb li');
+      for (let i = 0; i < el.length; i++) {
+        el[i].onclick = function () {
+          var check = 0;
+          while (check < el.length) {
+            el[check++].className = 'check';
+          }
+          el[i].className = 'check active';
+        };
+      }
     </script>
-</body>
+  </body>
 </html>

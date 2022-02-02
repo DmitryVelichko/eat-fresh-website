@@ -253,15 +253,33 @@ header .navigation li a:hover {
   }
 
   .sci {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     right: 0;
     width: 50px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
 
+  header .navigation li a {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+
+  header .navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fc4a55;
+    flex-direction: column;
+    z-index: 10;
+  }
+
   header .navigation {
-    display: none;
   }
 
   .toggle {
@@ -269,10 +287,19 @@ header .navigation li a:hover {
     width: 30px;
     height: 30px;
     cursor: pointer;
-    background: url(Images/menu.png);
+    background: url(images/menu.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 100;
+  }
+
+  .toggle.active {
+    position: fixed;
+    right: 20px;
+    background: url(images/close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
