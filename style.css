@@ -255,7 +255,12 @@ header .navigation li a:hover {
   .sci {
     background: rgba(0,0,0,0.1);
     right: 0;
+    width: 50px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+  }
+
+  header .navigation {
+    display: none;
   }
 }
