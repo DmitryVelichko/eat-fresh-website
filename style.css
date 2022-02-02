@@ -251,4 +251,9 @@ header .navigation li a:hover {
     left: 0;
     font-size: 6em;
   }
+
+  .sci {
+    background: rgba(0,0,0,0.1);
+    right: 0;
+  }
 }
