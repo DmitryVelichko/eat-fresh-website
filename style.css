@@ -273,5 +273,6 @@ header .navigation li a:hover {
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: 100;
   }
 }

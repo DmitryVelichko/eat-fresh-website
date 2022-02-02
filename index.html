@@ -45,6 +45,13 @@
     </section>
 
     <script>
+        // Toggle menu
+        let menuToggle = document.querySelector('.toggle');
+
+        menuToggle.onclick = function() {
+            menuToggle.classList.toggle('active');
+        }
+
         // Change image on click
         function imgSlider(link) {
             document.querySelector('.fruits').src = link;
