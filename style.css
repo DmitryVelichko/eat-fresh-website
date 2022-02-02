@@ -269,5 +269,7 @@ header .navigation li a:hover {
     width: 30px;
     height: 30px;
     cursor: pointer;
+    background: url(Images/menu.png);
+    background-size: 30px;
   }
 }
